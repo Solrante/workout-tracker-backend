@@ -1,16 +1,8 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Build output
+/target/
+/bin/
+/build/
+/out/
 *.jar
 *.war
 *.nar
@@ -19,6 +11,89 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+**/node_modules/
+**/.gradle/
+**/gradle/
+.gradle/
+build/
+
+# Maven
+**/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+gradlew
+gradlew.bat
+HELP.md
+!gradle/wrapper/gradle-wrapper.jar
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# MacOS
+.DS_Store
+
+# Environment variables
+.env
+*.env
+
+# Coverage reports
+**/jacoco.exec
+**/jacoco-reports/
+**/coverage/
+
+# Unit test reports
+**/TEST-*.xml
+**/test-results/
+
+# IntelliJ
+**/out/
+**/target/
+**/*.log
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Docker
+**/docker-compose.yml
+**/Dockerfile
+**/.dockerignore
+
+# Kubernetes
+**/kubernetes/
+**/k8s/
+
+# Database files
+*.db
+*.h2.db
+*.sql
+*.h2
+
+# Temp files
+*.tmp
+*.bak
+*.orig
+*.rej
